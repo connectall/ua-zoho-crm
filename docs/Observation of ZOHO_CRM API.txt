@@ -1,0 +1,6 @@
+1) The entity Price Books is not possible as the datatype JSON Array is not Supported
+
+
+2) In the API response the modified time is 2022-12-09T08:43:52+05:30 so the time is 2022-12-09T02:13:52Z
+	The time format is in ISO8601 Format.
+-----> No Risk

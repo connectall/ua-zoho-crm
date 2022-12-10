@@ -1,0 +1,36 @@
+[
+  {
+    "operation": "remove",
+    "spec": {
+      "fields": {
+        "id": ""
+      }
+    }
+},
+  {
+    "operation": "shift",
+    "spec": {
+      "data": {
+        "*": {
+          "details": {
+            "id": "&",
+            "*": "fields.&"
+          }
+        }
+      }
+    }
+  },
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "id": "=toString"
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "id": "&",
+      "fields": "&"
+    }
+  }
+ ]

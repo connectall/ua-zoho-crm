@@ -1,0 +1,21 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "comment": "data[]"
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "data": {
+        "*": {
+          "commentAuthor": "data[0].Created_By.email",
+          "createdDate": "data[0].Created_Time",
+          "updatedDate": "data[0].Modified_Time",
+          "commentBody": "data[0].Note_Content"
+        }
+      }
+    }
+  }
+  ]

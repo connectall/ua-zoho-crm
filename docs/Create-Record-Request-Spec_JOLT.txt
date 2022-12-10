@@ -1,0 +1,33 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "fields": {
+        "Owner": "fields.Owner.id",
+        "Account_Name": "fields.Account_Name.id",
+        "Vendor_Name": "fields.Vendor_Name.id",
+        "Contact_Name": "fields.Contact_Name.id",
+        "Who_Id": "fields.Who_Id.id",
+        "What_Id": "fields.What_Id.id",
+        "Product_Name": "fields.Product_Name.id",
+        "Deal_Name": "fields.Deal_Name.id",
+        "Related_To": "fields.Related_To.id",
+        "Handler": "fields.Handler.id",
+        "Sales_Order": "fields.Sales_Order.id",
+        "*": "fields.&"
+      }
+    }
+  },
+  {
+    "operation": "shift",
+    "spec": {
+      "fields": "data[]"
+    }
+  },
+  {
+    "operation": "remove",
+    "spec": {
+      "modules": ""
+    }
+  }
+ ]
